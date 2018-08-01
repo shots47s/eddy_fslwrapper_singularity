@@ -1,5 +1,5 @@
 {
-    "command-line": ". $FSLDIR/etc/fslconf/fsl.sh; python /opt/fslwrappers/eddy_driver.py BASEPATH SUBJID OUTPUT SHELL DIR EXE VERBOSE",
+    "command-line": ". /usr/local/fsl/etc/fslconf/fsl.sh; python /opt/fslwrappers/eddy_driver.py BASEPATH SUBJID OUTPUT SHELL DIR EXE VERBOSE",
     "description": "tool description",
     "inputs": [
         {
