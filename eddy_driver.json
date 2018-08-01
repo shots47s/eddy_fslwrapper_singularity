@@ -88,6 +88,11 @@
         "ram": 1,
         "walltime-estimate": 60
     },
+    "container-image":{
+        "image":"shots47s/eddy_fslwrapper_singularity",
+  	"index":"shub://",
+	"type":"singularity"
+    },
     "tags": {},
     "tool-version": "v0.1.0"
 }
