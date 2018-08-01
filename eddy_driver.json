@@ -93,6 +93,15 @@
   	"index":"shub://",
 	"type":"singularity"
     },
+    "output-files": [
+        {
+            "description": "A folder containing all of the output of the eddy run",
+            "id": "folder_out",
+   	    "optional":false,
+            "path-template": "[OUTPUT]",
+            "name": "Output folder"
+        }
+    ],
     "tags": {},
     "tool-version": "v0.1.0"
 }
